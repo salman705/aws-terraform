@@ -1,9 +1,9 @@
 # store the terraform state file in s3
 terraform {
   backend "s3" {
-    bucket    = "place bucket name"
-    key       = "same name as project like aws-website.tfstate"
-    region    = "us-east-1"
+    bucket    = "aws-website-123"
+    key       = "aws-website.tfstate"
+    region    = "ap-northeast-2"
     profile   = "terraform-user"
   }
 }
